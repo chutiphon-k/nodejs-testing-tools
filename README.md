@@ -1,3 +1,3 @@
 # Nodejs Testing Tools
 
-> Code for testing system functionality such as connection, transmission and others
+> Code for functionality testing such as connection, transmission and others.
