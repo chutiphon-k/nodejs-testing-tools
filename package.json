@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev:socket-client": "NODE_ENV=development nodemon ./src/socket-client --exec babel-node",
-    "dev:mqtt": "NODE_ENV=development nodemon ./src/mqtt --exec babel-node"
+    "dev": "NODE_ENV=development nodemon ./src/index.js --exec babel-node",
+    "dev:socket-client": "NODE_ENV=development nodemon ./src/socket-client.js --exec babel-node",
+    "dev:mqtt": "NODE_ENV=development nodemon ./src/mqtt.js --exec babel-node"
   },
   "repository": "https://chutiphon-k@github.com/chutiphon-k/nodejs-testing-tools.git",
   "author": "Chutiphon.k <chutiphon.k@ku.th>",
